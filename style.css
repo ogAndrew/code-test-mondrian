@@ -1,0 +1,187 @@
+:root {
+  --light-grey: #cdcdcf;
+  --dark-grey: #a2a2a1;
+  --black: #140d10;
+  --dark-blue: #152434;
+  --red: #b44225;
+  --yellow: #e1c346;
+}
+
+.frame {
+  background-color: var(--black);
+  padding: 1em;
+  max-width: 977px;
+  height: 966px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr) 50px;
+  grid-template-rows: 20px repeat(8, 1fr) 50px;
+  border: 4px solid white;
+  color: white;
+  height: 100%;
+}
+
+.box {
+  border: 2px solid black;
+}
+
+.box-1 {
+  background-color: var(--light-grey);
+  border: none;
+  border-bottom: 1px solid var(--dark-grey);
+}
+
+.box-2 {
+  background-color: var(--dark-grey);
+  border: none;
+  grid-column: span 5;
+}
+
+.box-3 {
+  background-color: var(--light-grey);
+  border: none;
+  grid-column: 7 / -1;
+  grid-row: span 2;
+}
+
+.box-4 {
+  border: none;
+  background-color: var(--light-grey);
+  grid-row: span 4;
+  border-bottom: 2px solid black;
+}
+
+.box-6 {
+  background-color: var(--dark-blue);
+  grid-column: span 4;
+}
+
+.box-7 {
+  background-color: var(--dark-grey);
+  grid-column: span 3;
+}
+
+.box-8 {
+  background-color: var(--red);
+  grid-column: span 2;
+}
+
+.box-9 {
+  grid-column: span 2;
+}
+
+.box-10 {
+  background-color: var(--dark-blue);
+  border: none;
+}
+
+.box-11 {
+  grid-row: span 2;
+}
+
+.box-12 {
+  background-color: var(--yellow);
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.box-13 {
+  background-color: var(--dark-blue);
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.box-14 {
+  background-color: var(--red);
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.box-15 {
+  background-color: var(--dark-grey);
+  grid-row: span 4;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.box-16 {
+  background-color: var(--dark-grey);
+  grid-row: span 4;
+  border: none;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.box-17 {
+  background-color: var(--dark-grey);
+  grid-row: span 4;
+}
+
+.box-18 {
+  background-color: var(--yellow);
+  grid-column: span 2;
+}
+
+.box-19 {
+  background-color: var(--red);
+  grid-column: span 2;
+}
+
+.box-20 {
+  background-color: var(--light-grey);
+  grid-column: span 2;
+}
+
+.box-21 {
+  background-color: var(--yellow);
+  grid-column: span 2;
+}
+
+.box-22 {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.box-23 {
+  background-color: var(--dark-grey);
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.box-24 {
+  background-color: var(--dark-blue);
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.box-25 {
+  background-color: var(--red);
+  grid-row: span 3;
+  border: none;
+  border-top: 2px solid black;
+}
+
+.box-26 {
+  background-color: var(--yellow);
+  grid-column: span 2;
+  border: none;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.box-27 {
+  background-color: var(--light-grey);
+  grid-column: span 4;
+  border: none;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.box-28 {
+  border: none;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
